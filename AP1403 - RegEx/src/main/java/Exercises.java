@@ -65,7 +65,7 @@ public class Exercises
         {
             return 0;
         }
-        String[] tokens = string.split("[\\s\\[\\](){}\"',:;.!?]+");
+        String[] tokens = string.split("[\\s\\[\\](){}\"',:;.?]+");
         int count = 0;
         for (String token : tokens)
         {
